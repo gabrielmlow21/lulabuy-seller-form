@@ -1,0 +1,54 @@
+:root {
+    --orange: #FBB271;
+    --white: #ffffff;
+    --brown: #68411A;
+
+    --weight-bold: 700;
+}
+
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.heading-primary {
+    background-color: var(--orange);
+    font-weight: var(--weight-bold); 
+    color: var(--brown); 
+    padding: 2rem 0rem;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    box-shadow: 0px 10px #F2F2F2;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.progress-bar__element {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-bar__element img {
+    height: 5rem;
+    width: 4rem;
+}
