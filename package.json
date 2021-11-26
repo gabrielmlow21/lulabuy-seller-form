@@ -1,0 +1,23 @@
+{
+  "name": "lulabuy-seller-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmlow/lulabuy-seller-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmlow/lulabuy-seller-form/issues"
+  },
+  "homepage": "https://github.com/gabrielmlow/lulabuy-seller-form#readme"
+}
